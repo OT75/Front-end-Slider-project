@@ -1,0 +1,255 @@
+* {
+ border:  px solid black;
+}
+body {
+    margin: 0px;
+    background-color: #CCCCFF;
+}
+a {
+    text-decoration: none;
+
+}
+
+a#titleA{
+    margin-left: 25px;
+    color: rgb(0, 140, 255);
+}
+a#titleA:hover{
+    color: rgb(248, 0, 0);
+    
+}
+a.headerA{
+  color: rgb(255, 255, 255);
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  margin-right: 25px;
+  
+ 
+
+}
+a.navA{
+    color: white;
+}
+
+a.headerA:hover{
+    color: lime;
+}
+a.navA:hover{
+    color: black;
+}
+div.table
+{
+    display: table;
+    width: 100%;
+    height: 50px;
+
+  
+}
+div.table1
+{
+    display: table;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(11, 109, 255);
+    border-radius: 25px;
+}
+
+div.row {
+    display: table-row;
+}
+
+div#headerTitle {
+    display: table-cell;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    width: 50%;
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: black;
+    border-bottom-left-radius: 50px;
+    
+
+}
+div#headerLinks {
+    display: table-cell;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    border-bottom-right-radius: 50px;
+    
+}
+a#loginA {
+    margin-right: 0px;
+}
+ span#headerAbs {
+    display: inline ;
+    color:rgb(255, 255, 255);
+   
+  
+}
+div.navLinks{
+    display: table-cell;
+    width: 16.67%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+div#sliderContainer {
+    background-color: #2C3E50;
+}
+div#slider {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+}
+img#sliderImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    border: 1px solid rgb(89, 0, 255);
+}
+div#previousButton {
+    position:absolute;
+    Top: 45%;
+    left: 2%;
+
+    
+}
+input#next, input#previous{
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(231, 231, 231);
+    height: 40px;
+    padding: 2px;
+    width: 60px;
+    border-radius: 20px;
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+input#next:hover, input#previous:hover{
+   background-color: red;
+   opacity: 1;
+
+}
+
+div#nextButton {
+    position:absolute;
+    top: 45%;
+    right: 2%;
+}
+span#latestProducts {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-family:monospace;
+    background-color: #CCCCFF;
+    padding-left: 42.5%;
+}
+span#latestProducts:hover {
+    color: blue;
+}
+
+div.leftProduct {
+    display: table-cell;
+    width: 40%;
+    height: 500px;
+    padding-left: 20%;
+    padding-right:1% ;
+
+}
+div.middleProduct {
+    display: table-cell;
+    width: 20%;
+    height: 700px;
+}
+
+img.leftImg {
+    width : 100%;
+    height: 380px;
+}
+span.productName{
+    color: #700101;
+    font-weight: bold;
+    font-family: nexa;
+    font-size: 20px;
+    margin-left: 25%;
+   
+
+}
+span.description {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+
+}
+span.theDescription {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+img.middleImg{
+    width: 100%;
+    height: 380px;
+}
+div.rightProduct {
+    padding-right: 20%;
+    padding-left: 20px;
+}
+img.rightImg{
+  
+    width: 75%;
+    height: 380px;
+}
+span.price{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    color: green;
+
+   
+}
+span.cartButton {
+    display: inline;
+    padding-left: 35%;
+}
+input.addToCart{
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    height: 40px;
+    border-radius: 20px;
+   
+
+}
+input.addToCart:hover{
+    background-color: lime;
+   
+
+}
+div#footer {
+    
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 45%;
+}
+input.addToCart:hover, input#previous:hover, input#next:hover{
+    cursor: pointer;
+}
